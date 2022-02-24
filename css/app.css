@@ -1,0 +1,73 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1440px;
+}
+.cart-position {
+    left: 90%;
+    top: 25%;
+}
+.nav-link{
+    border-bottom: 4px solid transparent;
+}
+.nav-link:hover {
+    border-color: #1b8bcc;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    font-weight: 600;
+}
+.carousel-control-prev-icon {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+.carousel-control-next-icon {
+    margin-right: 2rem;
+    margin-left: auto;
+}
+.bg-card {
+    background-color: #f8f8f8;
+}
+.about-section {
+    width: 100%;
+    background: url(/img/about-bg.png);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-body {
+    background: #1b8bcc;
+    margin-top: -100px;
+    padding: 0 auto 100px;
+}
+.feedback-bg {
+    min-height: 350px;
+    width: 100%;
+    background: url(/img/custom_content_2048x.webp);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.newsletter-bg {
+    width: 100%;
+    background: url(/img/bg_newsletter_1920x.progressive.webp);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #1b8bcc;
+}
